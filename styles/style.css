@@ -12,8 +12,8 @@
     align-items: center;
     justify-content: space-between;
     background-color: #FFF;
-    width: 1920px;
-    height: 130px;
+    /* width: 1920px; */
+    /* height: 130px; */
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     padding: 37px 240px;
 }
@@ -73,6 +73,7 @@ nav h2 {
     display: flex;
     justify-content: space-around;
     background-color: #FFF;
+    margin-bottom: 0px;
 
 }
 
@@ -88,11 +89,14 @@ nav h2 {
     font-size: 48px;
 }
 
-.goat-color {
+.all-trans-color {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.goat-color {
     text-align: center;
     font-size: 95px;
     font-weight: 800;
@@ -116,6 +120,8 @@ header ul li {
     color: #534C64;
     font-size: 20px;
     font-weight: 500;
+    text-align: left;
+    padding-left: 270px;
 }
 
 .banner-img {
@@ -147,4 +153,114 @@ header ul li {
     font-size: 20px;
     border: none;
 }
+
 /* Banner complete */
+main section {
+    margin: auto 240px;
+}
+
+.sec-i-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0px;
+    padding: 0px 240px;
+
+}
+
+.games-tittle {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.game-description {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+#title-des {
+    text-align: center;
+}
+
+.img-diff {
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+/* play instantly */
+.play-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+}
+
+.play-descptn {
+    margin-left: 320px;
+    padding-left: 350px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.img-con {
+    position: relative;
+    bottom: 275px;
+    right: 130px;
+}
+
+.play-tittle {
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #0B0223;
+}
+
+.play-description {
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 0;
+}
+
+/* Links sections */
+.link-box {
+    width: 295px;
+    height: 80px;
+    border-radius: 50px;
+    background: #FFF;
+
+
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.text-links {
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: center;
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+    text-decoration: none;
+}
+.aradace{
+    border: 2px solid #FF42A5;
+    border-radius: 50px;
+    margin: 0;
+    /* padding: 5px; */
+}
+/* Footer */
